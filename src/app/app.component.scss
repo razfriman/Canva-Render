@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex {
+  flex: 1;
+  display: flex;
+}
+
+.canvas-wrapper {
+  flex: 1;
+  border: 1px solid #ddd;
+  position: relative;
+
+  .canvas {
+    .element-wrapper {
+      position: absolute;
+
+      .container {
+        border: 1px solid red;
+      }
+    }
+  }
+}
+
+.editor {
+  height: 100%;
+  width: 33%;
+}
+
+
+.element-wrapper {
+  position: absolute;
+}
