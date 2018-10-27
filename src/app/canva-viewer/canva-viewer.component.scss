@@ -1,6 +1,18 @@
 :host {
-  padding-left: 15px;
   .page-wrapper {
     margin-bottom: 25px;
+  }
+
+  .toolbar {
+    padding: 10px;
+    background: #ddd;
+    border: 1px solid #ccc;
+  }
+
+  .container {
+    overflow: auto;
+  }
+  app-canva-page-viewer {
+    padding-left: 15px;
   }
 }

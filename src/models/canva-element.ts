@@ -6,6 +6,7 @@ export interface CanvaElement {
   transformX: number;
   transformY: number;
   rotate: number;
+  opacity: number;
   children: CanvaElement[];
   type: string;
 
@@ -17,4 +18,5 @@ export interface CanvaElement {
   imageUrl?: string;
   imageUrlIndex?: string;
   imageDimensions?: CanvaDimensions;
+  isSvg?: boolean;
 }

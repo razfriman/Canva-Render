@@ -77,10 +77,7 @@ export class AppComponent implements OnInit {
   decodeElements(node: any): CanvaElement[] {
     const elements = [];
 
-    console.log(node);
-
     node.forEach(element => {
-      console.log(element);
       const decodedElement: CanvaElement = {
         type: element['A?'],
         height: element['C'] || 0,
@@ -88,36 +85,87 @@ export class AppComponent implements OnInit {
         transformY: element['A'] || 0,
         transformX: element['B'] || 0,
         rotate: element['E'] || 0,
+        opacity: 1.0 - (element['F'] || 0),
         children: [],
         properties: {}
       };
 
       if (decodedElement.type === 'K') {
         // Text box
-        decodedElement.text = element.a.A[0].A;
+        try {
+          decodedElement.text = element.a.A[0].A;
 
-        element.a.B.forEach(prop => {
-          if (prop && prop.A) {
-            Object.keys(prop.A).forEach(key => {
-              decodedElement.properties[key] = prop.A[key].B || prop.A[key].A;
-            });
-          }
-        });
+          element.a.B.forEach(prop => {
+            if (prop && prop.A) {
+              Object.keys(prop.A).forEach(key => {
+                decodedElement.properties[key] = prop.A[key].B || prop.A[key].A;
+              });
+            }
+          });
+        } catch (e) {
+          console.log('Error during text box parse', e);
+        }
       } else if (decodedElement.type === 'H') {
         // Group
-        if (element.c) {
-          decodedElement.children = this.decodeElements(element.c);
+        try {
+          if (element.c) {
+            decodedElement.children = this.decodeElements(element.c);
+          }
+        } catch (e) {
+          console.log('Error during group parse', e);
         }
+      } else if (decodedElement.type === 'J') {
+        // SVG
+        // JSON
+        // {
+        //   "a": { "D": 500, "C": 499.2 },
+        //   "b": [{ "A": "M500 499.2H0V0z", "B": { "C": "#ffb9c9" } }]
+        // },
+        // Translated HTML
+        // <svg class="_1LGPcGiAwvNAySV0GUsZCr" width="442.6639181786662" height="441.95565590958034" viewBox="0 0 500 499.2">
+        // <path class="" d="M500 499.2H0V0z" fill="#ffb9c9"></path>
+        // </svg>
+        // const viewBox = `${element.a.A.B || 0} ${element.a.A.A || 0} ${element.a
+        //   .A.D || 0} ${element.a.A.C || 0}`;
+        // const paths = [];
+        // element.b.forEach(path => {
+        //   paths.push({
+        //     d: path.A,
+        //     fill: path.B.C
+        //   });
+        // });
+        // TODO - Display the SVG
       } else if (decodedElement.type === 'I') {
         // Image
 
-        decodedElement.imageUrl = element.a.B.A.A;
-        decodedElement.imageUrlIndex = element.a.B.A.B;
-        decodedElement.imageDimensions = {
-          height: element.a.B.B.C,
-          width: element.a.B.B.D,
-          type: ''
-        };
+        // Customize SVG Colors
+        // {
+        //   "a": {
+        //       "C": {
+        //         "#f28834": "#ef5d24",
+        //         "#f69636": "#f5b337",
+        //         "#faa23c": "#ef5d24",
+        //         "#ffdb76": "#473119"
+        //       }
+        //     }
+        //   }
+        // },
+
+        try {
+          decodedElement.imageUrl = element.a.B.A.A;
+          decodedElement.imageUrlIndex = element.a.B.A.B;
+
+          if (element.a.A === false) {
+            decodedElement.isSvg = true;
+          } else if (element.a.B && element.a.B.B) {
+            decodedElement.imageDimensions = {
+              height: element.a.B.B.C,
+              width: element.a.B.B.D
+            };
+          }
+        } catch (e) {
+          console.log('Error during image parse', e);
+        }
       }
 
       elements.push(decodedElement);
@@ -142,8 +190,19 @@ export class AppComponent implements OnInit {
         background: {
           color: page.D.C
         },
+        dimensions: null,
         elements: []
       };
+
+      if (page.D.B && page.D.B.B) {
+        const C = page.D.B.B.C;
+        const D = page.D.B.B.D;
+
+        decodedPage.dimensions = {
+          width: decoded.dimensions.type === 'D' ? C : null,
+          height: decoded.dimensions.type === 'C' ? C : null
+        };
+      }
 
       decodedPage.elements = this.decodeElements(page.E);
       decoded.pages.push(decodedPage);

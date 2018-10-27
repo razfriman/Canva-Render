@@ -1,0 +1,571 @@
+{
+  "A": [
+    {
+      "D": {
+        "B": {
+          "A": {
+            "A": "MADFF5KoEmY",
+            "B": 2
+          },
+          "B": {
+            "B": -164.40944881889766,
+            "D": 1122.5196850393702,
+            "C": 1122.5196850393702
+          },
+          "E": 0.01,
+          "C": {}
+        },
+        "C": "#8c52ff"
+      },
+      "E": [
+        {
+          "A?": "H",
+          "A": 78.92913385826785,
+          "B": 79.37007874015751,
+          "D": 629.4957339141596,
+          "C": 667.8956776655449,
+          "b": 380.6950390814203,
+          "a": 403.91786220725805,
+          "c": [
+            {
+              "A?": "K",
+              "A": 36.341333582308664,
+              "D": 380.6950390814203,
+              "C": 194,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "AnNual\nPumpkin Carving\nContest\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "B": "#7ed957"
+                      },
+                      "font-family": {
+                        "B": "YACgEcB-r-s,0"
+                      },
+                      "font-size": {
+                        "B": "42.666666666666664"
+                      },
+                      "text-transform": {
+                        "B": "uppercase"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 6
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "B": "1149"
+                      },
+                      "tracking": {
+                        "B": "50"
+                      },
+                      "text-align": {
+                        "B": "center"
+                      },
+                      "style": {
+                        "B": "title"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 1
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "A": "1149"
+                      },
+                      "tracking": {
+                        "A": "50"
+                      },
+                      "text-align": {
+                        "A": "center"
+                      },
+                      "style": {
+                        "A": "title"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 15
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "B": "1149"
+                      },
+                      "tracking": {
+                        "B": "50"
+                      },
+                      "text-align": {
+                        "B": "center"
+                      },
+                      "style": {
+                        "B": "title"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 1
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "A": "1149"
+                      },
+                      "tracking": {
+                        "A": "50"
+                      },
+                      "text-align": {
+                        "A": "center"
+                      },
+                      "style": {
+                        "A": "title"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 5
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "B": "1149.9999999999998"
+                      },
+                      "tracking": {
+                        "B": "50"
+                      },
+                      "text-align": {
+                        "B": "center"
+                      },
+                      "style": {
+                        "B": "title"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 3
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "A": "#7ed957"
+                      },
+                      "font-family": {
+                        "A": "YACgEcB-r-s,0"
+                      },
+                      "font-size": {
+                        "A": "42.666666666666664"
+                      },
+                      "text-transform": {
+                        "A": "uppercase"
+                      },
+                      "leading": {
+                        "A": "1149.9999999999998"
+                      },
+                      "tracking": {
+                        "A": "50"
+                      },
+                      "text-align": {
+                        "A": "center"
+                      },
+                      "style": {
+                        "A": "title"
+                      }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "B"
+            },
+            {
+              "A?": "K",
+              "A": 247.8817916663078,
+              "B": 39.315126030955724,
+              "D": 302.06478701950886,
+              "C": 35.333333333333336,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "One of the Highlights of Beechtown's Halloween Fair\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "B": "#ffde59"
+                      },
+                      "font-family": {
+                        "B": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "B": "13.333333333333334"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 45
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "B": "1440"
+                      },
+                      "tracking": {
+                        "B": "50"
+                      },
+                      "text-align": {
+                        "B": "center"
+                      },
+                      "style": {
+                        "B": "subtitle"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 7
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "A": "#ffde59"
+                      },
+                      "font-family": {
+                        "A": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "A": "13.333333333333334"
+                      },
+                      "leading": {
+                        "A": "1440"
+                      },
+                      "tracking": {
+                        "A": "50"
+                      },
+                      "text-align": {
+                        "A": "center"
+                      },
+                      "style": {
+                        "A": "subtitle"
+                      }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "B"
+            },
+            {
+              "A?": "K",
+              "A": 308.67197635014116,
+              "B": 39.315126030955724,
+              "D": 302.06478701950886,
+              "C": 42.8,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "October 29, 2020 | 2:00 PM | Vigilatte Coffee House\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-weight": {
+                        "B": "bold"
+                      },
+                      "color": {
+                        "B": "#ef5d24"
+                      },
+                      "font-family": {
+                        "B": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "B": "16"
+                      },
+                      "text-transform": {
+                        "B": "uppercase"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 51
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "B": "1440"
+                      },
+                      "tracking": {
+                        "B": "50"
+                      },
+                      "text-align": {
+                        "B": "center"
+                      },
+                      "style": {
+                        "B": "heading3"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 1
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-weight": {
+                        "A": "bold"
+                      },
+                      "color": {
+                        "A": "#ef5d24"
+                      },
+                      "font-family": {
+                        "A": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "A": "16"
+                      },
+                      "text-transform": {
+                        "A": "uppercase"
+                      },
+                      "leading": {
+                        "A": "1440"
+                      },
+                      "tracking": {
+                        "A": "50"
+                      },
+                      "text-align": {
+                        "A": "center"
+                      },
+                      "style": {
+                        "A": "heading3"
+                      }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "B"
+            },
+            {
+              "A?": "K",
+              "A": 376.0511955405914,
+              "B": 39.315126030955724,
+              "D": 302.06478701950886,
+              "C": 27.866666666666667,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "Show off your pumpkin carving skills and win big, awesome prizes from Beechtown Halloween Fair's major sponsors!\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "B": "#f5b337"
+                      },
+                      "font-family": {
+                        "B": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "B": "10.666666666666666"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 24
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "B": "1440"
+                      },
+                      "tracking": {
+                        "B": "50"
+                      },
+                      "text-align": {
+                        "B": "center"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 89
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "A": "#f5b337"
+                      },
+                      "font-family": {
+                        "A": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "A": "10.666666666666666"
+                      },
+                      "leading": {
+                        "A": "1440"
+                      },
+                      "tracking": {
+                        "A": "50"
+                      },
+                      "text-align": {
+                        "A": "center"
+                      }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "B"
+            },
+            {
+              "A?": "K",
+              "A": -1.5987211554602254e-14,
+              "B": 39.315126030955724,
+              "D": 302.06478701950886,
+              "C": 16.333333333333332,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "Vigilatte Coffee House\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "B": "#f5b337"
+                      },
+                      "font-family": {
+                        "B": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "B": "13.333333333333334"
+                      },
+                      "text-transform": {
+                        "B": "uppercase"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 22
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": {
+                        "B": "1440"
+                      },
+                      "tracking": {
+                        "B": "50"
+                      },
+                      "text-align": {
+                        "B": "center"
+                      },
+                      "style": {
+                        "B": "pretitle"
+                      }
+                    }
+                  },
+                  {
+                    "A?": "B",
+                    "A": 1
+                  },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": {
+                        "A": "#f5b337"
+                      },
+                      "font-family": {
+                        "A": "YACgETiWKS8,0"
+                      },
+                      "font-size": {
+                        "A": "13.333333333333334"
+                      },
+                      "text-transform": {
+                        "A": "uppercase"
+                      },
+                      "leading": {
+                        "A": "1440"
+                      },
+                      "tracking": {
+                        "A": "50"
+                      },
+                      "text-align": {
+                        "A": "center"
+                      },
+                      "style": {
+                        "A": "pretitle"
+                      }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "B"
+            }
+          ]
+        }
+      ],
+      "G": {
+        "A": "MAC4XDzrkfs",
+        "B": 1
+      }
+    }
+  ],
+  "B": {
+    "A?": "A",
+    "A": "TACixUyoqp0",
+    "B": 1
+  },
+  "C": {
+    "A": 210,
+    "B": 297,
+    "C": "C"
+  },
+  "G": {}
+}

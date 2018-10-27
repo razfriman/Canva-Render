@@ -1,0 +1,290 @@
+{
+  "A": [
+    {
+      "D": { "C": "#ff5482" },
+      "E": [
+        {
+          "A?": "I",
+          "A": -70.50695404122791,
+          "B": -84.19851311262448,
+          "D": 962.0978136268238,
+          "C": 1263.533593121826,
+          "F": 0.6,
+          "a": {
+            "B": {
+              "A": { "A": "MABj2t_j3i0", "B": 1 },
+              "B": {
+                "A": 3.410605131648481e-13,
+                "B": -132.55459434637453,
+                "D": 1227.207002319573,
+                "C": 1263.5335931218256
+              },
+              "C": {},
+              "D": { "A": -55, "B": -20, "E": 50 }
+            }
+          }
+        },
+        {
+          "A?": "J",
+          "A": 747.966670689409,
+          "B": 427.26459985795435,
+          "D": 442.6639181786662,
+          "C": 441.95565590958034,
+          "E": -90,
+          "a": { "D": 500, "C": 499.2 },
+          "b": [{ "A": "M500 499.2H0V0z", "B": { "C": "#ffb9c9" } }]
+        },
+        {
+          "A?": "H",
+          "A": 80.15150665363927,
+          "B": 62.42573233089888,
+          "D": 601.8897637795276,
+          "C": 572.1248941604657,
+          "b": 364,
+          "a": 345.9993407541864,
+          "c": [
+            {
+              "A?": "K",
+              "A": 34.54983518854658,
+              "D": 364,
+              "C": 129,
+              "a": {
+                "A": [{ "A?": "A", "A": "Learn Ballet This Summer!!\n" }],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": { "B": "#ffffff" },
+                      "font-family": { "B": "YACgEaymIoM,0" },
+                      "font-size": { "B": "53.00207039337474" }
+                    }
+                  },
+                  { "A?": "B", "A": 23 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": { "B": "1270" },
+                      "style": { "B": "title" }
+                    }
+                  },
+                  { "A?": "B", "A": 4 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": { "A": "#ffffff" },
+                      "font-family": { "A": "YACgEaymIoM,0" },
+                      "font-size": { "A": "53.00207039337474" },
+                      "leading": { "A": "1270" },
+                      "style": { "A": "title" }
+                    }
+                  }
+                ]
+              },
+              "b": { "A": [6] },
+              "d": "A"
+            },
+            {
+              "A?": "K",
+              "D": 280,
+              "C": 14,
+              "a": {
+                "A": [{ "A?": "A", "A": "Kyobi Ballet Studio\n" }],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": { "B": "#ffffff" },
+                      "font-family": { "B": "YACgEb2ZvHQ,0" },
+                      "font-size": { "B": "11.925465838509316" },
+                      "text-transform": { "B": "uppercase" }
+                    }
+                  },
+                  { "A?": "B", "A": 19 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "tracking": { "B": "200" },
+                      "style": { "B": "pretitle" }
+                    }
+                  },
+                  { "A?": "B", "A": 1 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": { "A": "#ffffff" },
+                      "font-family": { "A": "YACgEb2ZvHQ,0" },
+                      "font-size": { "A": "11.925465838509316" },
+                      "text-transform": { "A": "uppercase" },
+                      "tracking": { "A": "200" },
+                      "style": { "A": "pretitle" }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "A"
+            },
+            {
+              "A?": "K",
+              "A": 184.09967037709316,
+              "D": 280,
+              "C": 38,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "We're holding classes from\nJune 12 to July 25.\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-style": { "B": "italic" },
+                      "color": { "B": "#ffffff" },
+                      "font-family": { "B": "YACgEb2ZvHQ,0" },
+                      "font-size": { "B": "14.575569358178054" }
+                    }
+                  },
+                  { "A?": "B", "A": 26 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-size": { "A": "14.575569358178054", "B": "14" },
+                      "tracking": { "B": "50" },
+                      "style": { "B": "subtitle" }
+                    }
+                  },
+                  { "A?": "B", "A": 1 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-size": { "A": "14", "B": "14.575569358178054" },
+                      "tracking": { "A": "50" },
+                      "style": { "A": "subtitle" }
+                    }
+                  },
+                  { "A?": "B", "A": 19 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "tracking": { "B": "50" },
+                      "style": { "B": "subtitle" }
+                    }
+                  },
+                  { "A?": "B", "A": 1 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-style": { "A": "italic" },
+                      "color": { "A": "#ffffff" },
+                      "font-family": { "A": "YACgEb2ZvHQ,0" },
+                      "font-size": { "A": "14.575569358178054" },
+                      "tracking": { "A": "50" },
+                      "style": { "A": "subtitle" }
+                    }
+                  }
+                ]
+              },
+              "b": { "A": [9] },
+              "d": "A"
+            },
+            {
+              "A?": "K",
+              "A": 242.64950556563977,
+              "D": 280,
+              "C": 38.06666666666666,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "Sign up and learn from our roster of skilled dancers!\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-weight": { "B": "bold" },
+                      "color": { "B": "#ffffff" },
+                      "font-family": { "B": "YACgEb2ZvHQ,0" },
+                      "font-size": { "B": "14.666666666666666" },
+                      "text-transform": { "B": "uppercase" }
+                    }
+                  },
+                  { "A?": "B", "A": 53 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "leading": { "B": "1410" },
+                      "tracking": { "B": "70" },
+                      "style": { "B": "heading3" }
+                    }
+                  },
+                  { "A?": "B", "A": 1 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "font-weight": { "A": "bold" },
+                      "color": { "A": "#ffffff" },
+                      "font-family": { "A": "YACgEb2ZvHQ,0" },
+                      "font-size": { "A": "14.666666666666666" },
+                      "text-transform": { "A": "uppercase" },
+                      "leading": { "A": "1410" },
+                      "tracking": { "A": "70" },
+                      "style": { "A": "heading3" }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "A"
+            },
+            {
+              "A?": "K",
+              "A": 301.26600742085304,
+              "D": 280,
+              "C": 44.733333333333334,
+              "a": {
+                "A": [
+                  {
+                    "A?": "A",
+                    "A": "To learn more about our ballet program, kindly call 1234567890 and look for Marceline Anderson. Book a class today!\n"
+                  }
+                ],
+                "B": [
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": { "B": "#ffffff" },
+                      "font-family": { "B": "YACgEb2ZvHQ,0" },
+                      "font-size": { "B": "11.333333333333334" }
+                    }
+                  },
+                  { "A?": "B", "A": 113 },
+                  { "A?": "A", "A": { "tracking": { "B": "50" } } },
+                  { "A?": "B", "A": 3 },
+                  {
+                    "A?": "A",
+                    "A": {
+                      "color": { "A": "#ffffff" },
+                      "font-family": { "A": "YACgEb2ZvHQ,0" },
+                      "font-size": { "A": "11.333333333333334" },
+                      "tracking": { "A": "50" }
+                    }
+                  }
+                ]
+              },
+              "b": {},
+              "d": "A"
+            }
+          ]
+        }
+      ],
+      "G": { "A": "MAC4XWP3rxE", "B": 1 }
+    }
+  ],
+  "B": { "A?": "A", "A": "TACixUyoqp0", "B": 1 },
+  "C": { "A": 210, "B": 297, "C": "C" },
+  "G": {}
+}

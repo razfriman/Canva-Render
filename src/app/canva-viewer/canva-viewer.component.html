@@ -1,10 +1,23 @@
 <div class="canvas-wrapper">
 
-  <div *ngFor="let page of model.pages"
-    class="page-wrapper">
+  <div class="toolbar">
+    <button type="button"
+      (click)="zoomOut()">Zoom Out</button>
+    <button type="button"
+      (click)="actualSize()">Actual Size</button>
+    <button type="button"
+      (click)="zoomIn()">Zoom In</button>
+    <label>{{scale * 100}}%</label>
+  </div>
 
-    <h3>Page 1</h3>
-    <app-canva-page-viewer [model]="model"
-      [page]="page"></app-canva-page-viewer>
+  <div class="container">
+    <div *ngFor="let page of model?.pages"
+      [style.transform]="'scale(' + scale + ')'"
+      class="page-wrapper">
+
+      <h3>Page 1</h3>
+      <app-canva-page-viewer [model]="model"
+        [page]="page"></app-canva-page-viewer>
+    </div>
   </div>
 </div>

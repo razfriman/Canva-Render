@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  canva-render:
+    image: docker.io/rfriman/canva-render:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile

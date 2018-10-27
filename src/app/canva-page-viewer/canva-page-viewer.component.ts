@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CanvaModel } from 'src/models/canva-model';
 import { CanvaPage } from 'src/models/canva-page';
 
@@ -7,7 +7,7 @@ import { CanvaPage } from 'src/models/canva-page';
   templateUrl: './canva-page-viewer.component.html',
   styleUrls: ['./canva-page-viewer.component.scss']
 })
-export class CanvaPageViewerComponent implements OnInit {
+export class CanvaPageViewerComponent {
   @Input()
   model: CanvaModel;
 
@@ -16,5 +16,33 @@ export class CanvaPageViewerComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  getWidth() {
+    if (!this.page.dimensions) {
+      return this.model.dimensions.width;
+    }
+
+    if (this.page.dimensions.width) {
+      return this.page.dimensions.width;
+    }
+
+    return (
+      this.page.dimensions.height /
+      (this.model.dimensions.height / this.model.dimensions.width)
+    );
+  }
+
+  getHeight() {
+    if (!this.page.dimensions) {
+      return this.model.dimensions.height;
+    }
+
+    if (this.page.dimensions.height) {
+      return this.page.dimensions.height;
+    }
+
+    return (
+      this.page.dimensions.width /
+      (this.model.dimensions.width / this.model.dimensions.height)
+    );
+  }
 }

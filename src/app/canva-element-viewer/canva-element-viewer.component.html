@@ -1,21 +1,23 @@
-<div>
-  <div class="container"
-    [style.width]="element?.width + 'px'"
-    [style.height]="element?.height + 'px'"
-    [style.transform]="getTransform(element)">
-    <span *ngIf="element?.text"
-      [style.font-size]="element?.properties['font-size'] + 'px'"
-      [style.text-align]="element?.properties['text-align']">{{element.text}}</span>
+<div class="container"
+  [style.width]="element?.width + 'px'"
+  [style.height]="element?.height + 'px'"
+  [style.opacity]="element?.opacity"
+  [style.transform]="getTransform(element)">
 
-    <img *ngIf="element?.imageUrl"
-      [src]="'https://media-public.canva.com/' + element.imageUrl + '/' + element.imageUrlIndex + '/screen.jpg'" />
-  </div>
+  <div *ngIf="element?.text"
+    [style.font-weight]="element?.properties['font-weight']"
+    [style.color]="element?.properties['color']"
+    [style.text-transform]="element?.properties['text-transform']"
+    [style.font-size]="element?.properties['font-size'] + 'px'"
+    [style.text-align]="element?.properties['text-align']">{{element.text}}</div>
 
-  <div class="child-elements"
-    *ngIf="element?.children">
-    <div *ngFor="let childElement of element?.children"
-      class="element-wrapper">
-      <app-canva-element-viewer></app-canva-element-viewer>
-    </div>
-  </div>
+  <img *ngIf="!element?.isSvg && element?.imageUrl"
+    [src]="'https://media-public.canva.com/' + element.imageUrl + '/' + element.imageUrlIndex + '/screen.jpg'" />
+
+  <img *ngIf="element?.isSvg && element?.imageUrl"
+    [src]="'https://media-public.canva.com/' + element.imageUrl + '/' + element.imageUrlIndex + '/screen.svg'" />
+
+
+  <app-canva-element-viewer [element]="childElement"
+    *ngFor="let childElement of element?.children"></app-canva-element-viewer>
 </div>
