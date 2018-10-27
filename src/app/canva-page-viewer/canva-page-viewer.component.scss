@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  flex: 1;
+  position: relative;
+
+  .canvas {
+    border: 2px solid #888;
+
+    .element-wrapper {
+      position: absolute;
+
+      .container {
+        border: 1px solid red;
+      }
+    }
+  }
+}

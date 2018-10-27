@@ -1,3 +1,5 @@
+import { CanvaDimensions } from './canva-dimensions';
+
 export interface CanvaElement {
   width: number;
   height: number;
@@ -11,4 +13,8 @@ export interface CanvaElement {
   text?: string;
   properties: { [key: string]: any };
 
+  // Image
+  imageUrl?: string;
+  imageUrlIndex?: string;
+  imageDimensions?: CanvaDimensions;
 }

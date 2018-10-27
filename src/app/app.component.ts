@@ -1,13 +1,13 @@
 import {
-  Component,
-  OnInit,
+  ChangeDetectionStrategy,
   ChangeDetectorRef,
-  ChangeDetectionStrategy
+  Component,
+  OnInit
 } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
+import { CanvaElement } from 'src/models/canva-element';
 import { CanvaModel } from 'src/models/canva-model';
 import { CanvaPage } from 'src/models/canva-page';
-import { CanvaElement } from 'src/models/canva-element';
-import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -68,18 +68,6 @@ export class AppComponent implements OnInit {
     }
   }
 
-  getTransform(element: CanvaElement) {
-    const result = this.sanitizer.bypassSecurityTrustStyle(
-      `translate(${element.transformX.toFixed(
-        2
-      )}px, ${element.transformY.toFixed(2)}px) rotate(${element.rotate.toFixed(
-        2
-      )}deg)`
-    );
-
-    return result;
-  }
-
   clearCanvas() {
     this.elements = [];
     this.model = null;
@@ -122,6 +110,14 @@ export class AppComponent implements OnInit {
         }
       } else if (decodedElement.type === 'I') {
         // Image
+
+        decodedElement.imageUrl = element.a.B.A.A;
+        decodedElement.imageUrlIndex = element.a.B.A.B;
+        decodedElement.imageDimensions = {
+          height: element.a.B.B.C,
+          width: element.a.B.B.D,
+          type: ''
+        };
       }
 
       elements.push(decodedElement);

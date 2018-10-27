@@ -1,0 +1,21 @@
+<div>
+  <div class="container"
+    [style.width]="element?.width + 'px'"
+    [style.height]="element?.height + 'px'"
+    [style.transform]="getTransform(element)">
+    <span *ngIf="element?.text"
+      [style.font-size]="element?.properties['font-size'] + 'px'"
+      [style.text-align]="element?.properties['text-align']">{{element.text}}</span>
+
+    <img *ngIf="element?.imageUrl"
+      [src]="'https://media-public.canva.com/' + element.imageUrl + '/' + element.imageUrlIndex + '/screen.jpg'" />
+  </div>
+
+  <div class="child-elements"
+    *ngIf="element?.children">
+    <div *ngFor="let childElement of element?.children"
+      class="element-wrapper">
+      <app-canva-element-viewer></app-canva-element-viewer>
+    </div>
+  </div>
+</div>

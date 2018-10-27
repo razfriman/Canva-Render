@@ -1,0 +1,10 @@
+<div class="canvas-wrapper">
+
+  <div *ngFor="let page of model.pages"
+    class="page-wrapper">
+
+    <h3>Page 1</h3>
+    <app-canva-page-viewer [model]="model"
+      [page]="page"></app-canva-page-viewer>
+  </div>
+</div>

@@ -1,45 +1,33 @@
-<header>
-  <h1>Canva Render</h1>
-  <h2>By: Raz Friman</h2>
-</header>
-
-<form>
-  <input type="hidden"
-    [ngModel]="code"
-    name="code" />
-</form>
+<app-header></app-header>
 
 <div class="flex">
   <ngx-monaco-editor class="editor"
     [options]="editorOptions"
     [(ngModel)]="code"
     (onInit)="onInit($event)"></ngx-monaco-editor>
-  <div class="canvas-wrapper">
-    <div class="canvas"
-      [style.background-color]="page?.background?.color"
-      [style.width]="model?.dimensions?.width + 'px'"
-      [style.height]="model?.dimensions?.height + 'px'">
-      <div *ngFor="let element of elements"
-        class="element-wrapper">
-        <div class="container"
-          [style.width]="element?.width + 'px'"
-          [style.height]="element?.height + 'px'"
-          [style.transform]="getTransform(element)">
-          <span *ngIf="element?.text">{{element.text}}</span>
-        </div>
-
-        <div *ngFor="let childElement of element.children"
-          class="element-wrapper">
-          <div class="container"
-            [style.width]="childElement?.width + 'px'"
-            [style.height]="childElement?.height + 'px'"
-            [style.transform]="getTransform(childElement)">
-            <span *ngIf="childElement?.text">{{childElement.text}}</span>
-          </div>
-
-
-
-        </div>
-      </div>
+  <app-canva-viewer [model]="model"></app-canva-viewer>
+  <!-- <quill-editor>
+    <div quill-editor-toolbar>
+      <span class="ql-formats">
+        <button class="ql-bold"
+          [title]="'Bold'"></button>
+      </span>
+      <span class="ql-formats">
+        <select class="ql-align"
+          [title]="'Aligment'">
+          <option selected></option>
+          <option value="center"></option>
+          <option value="right"></option>
+          <option value="justify"></option>
+        </select>
+        <select class="ql-align"
+          [title]="'Aligment2'">
+          <option selected></option>
+          <option value="center"></option>
+          <option value="right"></option>
+          <option value="justify"></option>
+        </select>
+      </span>
     </div>
-  </div>
+  </quill-editor> -->
+</div>
