@@ -1,6 +1,8 @@
 :host {
-  .page-wrapper {
-    margin-bottom: 25px;
+  .canvas-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   .toolbar {
@@ -11,8 +13,12 @@
 
   .container {
     overflow: auto;
+    flex: 1;
   }
   app-canva-page-viewer {
     padding-left: 15px;
+    transform-origin: 0 0;
+    margin: 25px;
+    width: 0px;
   }
 }

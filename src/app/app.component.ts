@@ -116,25 +116,18 @@ export class AppComponent implements OnInit {
         }
       } else if (decodedElement.type === 'J') {
         // SVG
-        // JSON
-        // {
-        //   "a": { "D": 500, "C": 499.2 },
-        //   "b": [{ "A": "M500 499.2H0V0z", "B": { "C": "#ffb9c9" } }]
-        // },
-        // Translated HTML
-        // <svg class="_1LGPcGiAwvNAySV0GUsZCr" width="442.6639181786662" height="441.95565590958034" viewBox="0 0 500 499.2">
-        // <path class="" d="M500 499.2H0V0z" fill="#ffb9c9"></path>
-        // </svg>
-        // const viewBox = `${element.a.A.B || 0} ${element.a.A.A || 0} ${element.a
-        //   .A.D || 0} ${element.a.A.C || 0}`;
-        // const paths = [];
-        // element.b.forEach(path => {
-        //   paths.push({
-        //     d: path.A,
-        //     fill: path.B.C
-        //   });
-        // });
-        // TODO - Display the SVG
+        decodedElement.svgData = {
+          viewBox: `${element.a.B || 0} ${element.a.A || 0} ${element.a.D ||
+            0} ${element.a.C || 0}`,
+          paths: []
+        };
+
+        element.b.forEach(path => {
+          decodedElement.svgData.paths.push({
+            d: path.A,
+            fill: path.B.C
+          });
+        });
       } else if (decodedElement.type === 'I') {
         // Image
 

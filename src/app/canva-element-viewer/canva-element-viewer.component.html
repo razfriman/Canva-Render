@@ -2,6 +2,7 @@
   [style.width]="element?.width + 'px'"
   [style.height]="element?.height + 'px'"
   [style.opacity]="element?.opacity"
+  [style.background]="element?.fillColor"
   [style.transform]="getTransform(element)">
 
   <div *ngIf="element?.text"
@@ -17,6 +18,16 @@
   <img *ngIf="element?.isSvg && element?.imageUrl"
     [src]="'https://media-public.canva.com/' + element.imageUrl + '/' + element.imageUrlIndex + '/screen.svg'" />
 
+
+  <!-- SVG -->
+  <svg *ngIf="element?.svgData"
+    [style.width]="element?.width + 'px'"
+    [style.height]="element?.height + 'px'"
+    viewBox="element.svgData.viewBox">
+    <path *ngFor="let path of element.svgData.paths"
+      [attr.d]="path.d"
+      [attr.fill]="path.fill"></path>
+  </svg>
 
   <app-canva-element-viewer [element]="childElement"
     *ngFor="let childElement of element?.children"></app-canva-element-viewer>

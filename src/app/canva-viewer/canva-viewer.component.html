@@ -11,13 +11,9 @@
   </div>
 
   <div class="container">
-    <div *ngFor="let page of model?.pages"
+    <app-canva-page-viewer *ngFor="let page of model?.pages"
+      [model]="model"
       [style.transform]="'scale(' + scale + ')'"
-      class="page-wrapper">
-
-      <h3>Page 1</h3>
-      <app-canva-page-viewer [model]="model"
-        [page]="page"></app-canva-page-viewer>
-    </div>
+      [page]="page"></app-canva-page-viewer>
   </div>
 </div>

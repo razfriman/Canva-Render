@@ -1,4 +1,5 @@
 import { CanvaDimensions } from './canva-dimensions';
+import { CanvaSvgInfo } from './canva-svg-info';
 
 export interface CanvaElement {
   width: number;
@@ -20,4 +21,7 @@ export interface CanvaElement {
   imageDimensions?: CanvaDimensions;
   isSvg?: boolean;
   fillColor?: string;
+
+  // Svg
+  svgData?: CanvaSvgInfo;
 }
