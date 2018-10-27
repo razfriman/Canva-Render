@@ -19,4 +19,5 @@ export interface CanvaElement {
   imageUrlIndex?: string;
   imageDimensions?: CanvaDimensions;
   isSvg?: boolean;
+  fillColor?: string;
 }

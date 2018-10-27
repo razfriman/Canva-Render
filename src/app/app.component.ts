@@ -152,8 +152,14 @@ export class AppComponent implements OnInit {
         // },
 
         try {
-          decodedElement.imageUrl = element.a.B.A.A;
-          decodedElement.imageUrlIndex = element.a.B.A.B;
+          // Error during image parse TypeError: Cannot read property 'A' of undefined
+
+          if (element.a.B) {
+            decodedElement.imageUrl = element.a.B.A.A;
+            decodedElement.imageUrlIndex = element.a.B.A.B;
+          } else if (element.a.C) {
+            decodedElement.fillColor = element.a.C;
+          }
 
           if (element.a.A === false) {
             decodedElement.isSvg = true;
