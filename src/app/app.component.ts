@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
   // tslint:disable-next-line:max-line-length
   code = `{\r\n    \"A\": [{\r\n        \"D\": {\r\n            \"B\": {\r\n                \"A\": {\r\n                    \"A\": \"MADFF5KoEmY\",\r\n                    \"B\": 2\r\n                },\r\n                \"B\": {\r\n                    \"A\": -122.50000000000006,\r\n                    \"B\": -5.684341886080802e-14,\r\n                    \"D\": 560.0000000000001,\r\n                    \"C\": 560.0000000000001\r\n                },\r\n                \"E\": 0.01,\r\n                \"C\": {}\r\n            },\r\n            \"C\": \"#5bc9ff\"\r\n        },\r\n        \"E\": [{\r\n            \"A?\": \"K\",\r\n            \"A\": 9.538296732316493,\r\n            \"B\": 3.2907287596861963,\r\n            \"D\": 85.58036804199219,\r\n            \"C\": 38.17143020629883,\r\n            \"E\": -13.618018695296614,\r\n            \"a\": {\r\n                \"A\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": \"LEFT\\n\"\r\n                }],\r\n                \"B\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"B\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"B\": \"start\"\r\n                        }\r\n                    }\r\n                }, {\r\n                    \"A?\": \"B\",\r\n                    \"A\": 5\r\n                }, {\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"A\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"A\": \"start\"\r\n                        }\r\n                    }\r\n                }]\r\n            },\r\n            \"b\": {},\r\n            \"d\": \"A\"\r\n        }, {\r\n            \"A?\": \"K\",\r\n            \"B\": 451.4196319580078,\r\n            \"D\": 108.58036804199219,\r\n            \"C\": 38.17143020629883,\r\n            \"a\": {\r\n                \"A\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": \"RIGHT\\n\"\r\n                }],\r\n                \"B\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"B\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"B\": \"end\"\r\n                        }\r\n                    }\r\n                }, {\r\n                    \"A?\": \"B\",\r\n                    \"A\": 6\r\n                }, {\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"A\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"A\": \"end\"\r\n                        }\r\n                    }\r\n                }]\r\n            },\r\n            \"b\": {},\r\n            \"d\": \"A\"\r\n        }, {\r\n            \"A?\": \"K\",\r\n            \"A\": 275.17143020629885,\r\n            \"D\": 137.5803680419922,\r\n            \"C\": 38.17143020629883,\r\n            \"a\": {\r\n                \"A\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": \"BOTTOM\\n\"\r\n                }],\r\n                \"B\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"B\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"B\": \"start\"\r\n                        }\r\n                    }\r\n                }, {\r\n                    \"A?\": \"B\",\r\n                    \"A\": 7\r\n                }, {\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"A\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"A\": \"start\"\r\n                        }\r\n                    }\r\n                }]\r\n            },\r\n            \"b\": {},\r\n            \"d\": \"A\"\r\n        }, {\r\n            \"A?\": \"K\",\r\n            \"A\": 276,\r\n            \"B\": 268.4196319580078,\r\n            \"D\": 291.5803680419922,\r\n            \"C\": 38.17143020629883,\r\n            \"a\": {\r\n                \"A\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": \"BOTTOM RIGHT\\n\"\r\n                }],\r\n                \"B\": [{\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"B\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"B\": \"start\"\r\n                        }\r\n                    }\r\n                }, {\r\n                    \"A?\": \"B\",\r\n                    \"A\": 13\r\n                }, {\r\n                    \"A?\": \"A\",\r\n                    \"A\": {\r\n                        \"font-size\": {\r\n                            \"A\": \"32\"\r\n                        },\r\n                        \"text-align\": {\r\n                            \"A\": \"start\"\r\n                        }\r\n                    }\r\n                }]\r\n            },\r\n            \"b\": {},\r\n            \"d\": \"A\"\r\n        }],\r\n        \"G\": {\r\n            \"A\": \"MAC7srFQOT8\",\r\n            \"B\": 1\r\n        }\r\n    }],\r\n    \"B\": {\r\n        \"A?\": \"A\",\r\n        \"A\": \"TACQ-vigoPU\",\r\n        \"B\": 1\r\n    },\r\n    \"C\": {\r\n        \"A\": 560,\r\n        \"B\": 315,\r\n        \"C\": \"D\"\r\n    },\r\n    \"D\": \"The Hoedown Under\",\r\n    \"G\": {}\r\n}`;
   // code = '';
+  decodedCode = '';
   editor: any;
   elements: any[] = [];
   page: CanvaPage;
@@ -62,6 +63,7 @@ export class AppComponent implements OnInit {
     try {
       const parsed = JSON.parse(this.code);
       const decoded = this.decodeCanva(parsed);
+      this.decodedCode = JSON.stringify(decoded, null, 2);
       this.drawElements(decoded);
     } catch (e) {
       this.clearCanvas();
@@ -72,14 +74,28 @@ export class AppComponent implements OnInit {
     this.elements = [];
     this.model = null;
     this.page = null;
+    this.decodedCode = '';
   }
 
   decodeElements(node: any): CanvaElement[] {
     const elements = [];
 
     node.forEach(element => {
+      const elementType = element['A?'];
+      let decodedElementType = '';
+
+      if (elementType === 'K') {
+        decodedElementType = 'Text';
+      } else if (elementType === 'H') {
+        decodedElementType = 'Group';
+      } else if (elementType === 'J') {
+        decodedElementType = 'SVG';
+      } else if (elementType === 'I') {
+        decodedElementType = 'Image';
+      }
+
       const decodedElement: CanvaElement = {
-        type: element['A?'],
+        type: decodedElementType,
         height: element['C'] || 0,
         width: element['D'] || 0,
         transformY: element['A'] || 0,
@@ -90,7 +106,7 @@ export class AppComponent implements OnInit {
         properties: {}
       };
 
-      if (decodedElement.type === 'K') {
+      if (decodedElement.type === 'Text') {
         // Text box
         try {
           decodedElement.text = element.a.A[0].A;
@@ -105,7 +121,7 @@ export class AppComponent implements OnInit {
         } catch (e) {
           console.log('Error during text box parse', e);
         }
-      } else if (decodedElement.type === 'H') {
+      } else if (decodedElement.type === 'Group') {
         // Group
         try {
           if (element.c) {
@@ -114,7 +130,7 @@ export class AppComponent implements OnInit {
         } catch (e) {
           console.log('Error during group parse', e);
         }
-      } else if (decodedElement.type === 'J') {
+      } else if (decodedElement.type === 'SVG') {
         // SVG
         decodedElement.svgData = {
           viewBox: `${element.a.B || 0} ${element.a.A || 0} ${element.a.D ||
@@ -128,7 +144,7 @@ export class AppComponent implements OnInit {
             fill: path.B.C
           });
         });
-      } else if (decodedElement.type === 'I') {
+      } else if (decodedElement.type === 'Image') {
         // Image
 
         // Customize SVG Colors

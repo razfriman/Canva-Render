@@ -6,4 +6,7 @@
     [(ngModel)]="code"
     (onInit)="onInit($event)"></ngx-monaco-editor>
   <app-canva-viewer [model]="model"></app-canva-viewer>
+  <ngx-monaco-editor class="editor"
+    [options]="editorOptions"
+    [(ngModel)]="decodedCode"></ngx-monaco-editor>
 </div>
